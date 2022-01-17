@@ -8,7 +8,7 @@ var xhr = new XMLHttpRequest();
 xhr.open("POST", url);
 
 xhr.setRequestHeader("Content-Type", "application/json");
-xhr.setRequestHeader("Authorization", "Bearer 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");
+xhr.setRequestHeader("Authorization", "Bearer <api-key>");
 
 xhr.onreadystatechange = function () {
    var data= xhr.responseText;
