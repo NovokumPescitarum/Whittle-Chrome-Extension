@@ -1,0 +1,15 @@
+{   
+   "manifest_version" : 2,
+   "name" : "Whittle",
+   "description" : "A research assistant which completes your research.",
+   "version" : "0.0.1",
+   "icons" : {"128" : "icon_128.png"},
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    },
+    "background": {
+    "scripts": ["/js/jquery.js", "/js/formalize.js", "/js/summarize.js", "/js/request.js", "js/outline.js", "js/question.js"],
+    "permissions" : ["tabs", "<all_urls>"]
+	}
+}
