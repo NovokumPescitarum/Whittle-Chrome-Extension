@@ -44,7 +44,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, "{\n  \"prompt\": \"$prompt\" ,\n  \"max_to
 
 $headers = array();
 $headers[] = 'Content-Type: application/json';
-$headers[] = 'Authorization: Bearer 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';
+$headers[] = 'Authorization: Bearer <api-key>';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
 $result = curl_exec($ch);
